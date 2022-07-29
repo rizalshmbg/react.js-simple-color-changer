@@ -3,7 +3,7 @@ import Square from "./Square";
 import { useState } from 'react'
 
 const App = () => {
-    const [colorValue, setColorValue] = useState('');
+    const [colorValue, setColorValue] = useState('#');
     const [hexValue, setHexValue] = useState('');
     const [isDarkText, setIsDarkText] = useState(true);
 
